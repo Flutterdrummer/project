@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html style="" class="" lang="en">
+<head>
+    <!--
+      CIS166AA - JavaScript
+      Chapter 1
+      Chapter case project
+
+		My E-portfolio
+      
+      Author: Gus Reilly
+      Date:   10/22/2018
+
+      Filename: index.html
+   -->
+    <title>Gus Reilly</title>
+    <script src="modernizr.custom.05819.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to the feedback page</h1>
+    </header>
+	
+	<div class="topnav">
+	<a href="index.html">Home</a> |
+	<a href="chapter1-1project.html">About</a> |
+	<a href="chapter1-2project.html">See My Work</a> |
+	<a class="active" href="chapter1-3project.html">Feedback</a>
+	</div>
+	
+	
+	    
+
+    <p>This page is where people can give me feedback on my webpage so then I can improve it even further.</p>
+		
+		 <article>
+      <h2>Feedback</h2>
+      <form>
+        <fieldset id="contactinfo">
+          <legend><span>Contact Information</span></legend>
+          <label for="nameinput">
+            Name
+            <input type="text" id="nameinput" name="name" />
+          </label>
+		  <br>
+          <label for="emailinput">
+            Email
+            <input type="email" id="emailinput" name="email" />
+          </label>
+		  <br>
+        </fieldset>
+        <fieldset id="comments">
+          <legend><span>Comments</span></legend>
+		  <label for="commentsinput">
+			Comments
+		  <input type="text" id="commentsinput" name="comments" />
+		  <br>
+		  </label>
+		  <br>
+          </fieldset>
+        <fieldset id="submitbutton">
+          <input type="submit" value="Submit" onclick="alert('Thanks for your comment!');" />
+        </fieldset>
+     </form>
+   </article>
+     
+    
+
+
+</body></html>
